@@ -1,0 +1,7 @@
+No 1 :
+SELECT * FROM employees;
+
+No 2 :
+SELECT COUNT(*) AS jumlah_manager
+FROM employees
+WHERE job_title = 'Manager';
